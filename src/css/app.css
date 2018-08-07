@@ -1,0 +1,13 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+.image {
+    background-image: url('../img/350x150.png');
+}
+
+.append-text {
+    color: green;
+    text-align: center;
+}
