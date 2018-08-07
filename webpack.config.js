@@ -9,7 +9,11 @@ const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 module.exports = {
     mode: 'production',
     entry: {
-        app: './src/js/app.js'
+        app: './src/js/app.js',
+        public: [
+            './src/js/jquery.js',
+            './src/js/functions.js'
+        ]
     },
     output: {
         filename: '[name].bundle.js',
