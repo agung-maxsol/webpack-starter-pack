@@ -37,7 +37,8 @@ module.exports = {
         ]
     },
     devServer: {
-        contentBase: './public'
+        contentBase: './public',
+        port: 8888,
     },
     plugins: [
         // new CleanWebpackPlugin(['public/dist']),
