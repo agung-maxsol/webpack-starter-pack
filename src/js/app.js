@@ -11,7 +11,7 @@ function component() {
     let element = document.createElement('div');
 
     element.innerHTML = _.join(['Hello', 'Webpack...'], ' ');
-    element.className = 'append-text';
+    element.className = 'append-text center';
 
     loader();
 

@@ -11,7 +11,6 @@ module.exports = {
     entry: {
         app: './src/js/app.js',
         public: [
-            './src/js/jquery.js',
             './src/js/functions.js'
         ]
     },
@@ -81,5 +80,10 @@ module.exports = {
                 ]
             }
         ]
+    },
+    resolve: {
+        alias: {
+            'jquery': path.resolve(__dirname, './src/js/jquery.js')
+        }
     }
 };
